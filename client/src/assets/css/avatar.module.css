@@ -1,0 +1,93 @@
+
+.humanContainer {
+    height: 262px;
+    position: relative;
+    width: 180px !important;
+}
+.bodyContainer{
+    z-index: 3;
+    left: 65px;
+    top: 160px;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+}
+.headShadow {
+    border-radius: 0px 0px 50% 50%;
+    top: 12px;
+    position: absolute;
+    z-index: 4;
+    background-color: black;
+    opacity: .2;
+    height: 25px;
+    width: 100%;
+}
+.head {
+    border-radius: 50%;
+    width: 100%;
+    height: 190px;
+    position: relative;
+    z-index: 5;
+}
+.eye {
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    position: absolute;
+    border-radius: 100%;
+}
+.eyeBall {
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    background-color: black;
+}
+.eyeLeft {
+    left: 0;   
+}
+.eyeRight {
+    right: 0;
+}
+.body {
+    border-radius: 1px;
+    position: absolute;
+    z-index: 3;
+    height: 80px;
+    width: 100%;
+}
+.legRight {
+    z-index: 1;
+    border-radius: 5px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 80px;
+    width: 15px;
+}
+.legLeft {
+    z-index: 1;
+    border-radius: 5px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 80px;
+    width: 15px;
+}
+
+.arm {
+    top: 30px;
+    border-radius: 10px;
+    width: 40px;
+    height: 10px;
+    position: absolute;
+}
+
+.armRight {
+    left: 40px;
+}
+.armLeft {
+    left: -30px;
+}

@@ -1,0 +1,11 @@
+.tokenList {
+  height: auto;
+  max-height: 33rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.ethInput {
+  width: 200px !important;
+  margin-right: 1.5rem;
+}

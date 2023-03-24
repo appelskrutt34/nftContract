@@ -1,0 +1,6 @@
+.modal-header {
+  border-bottom: none;
+}
+.btn-close {
+  color: var(--beige);
+}

@@ -1,0 +1,141 @@
+/*
+$beige: #f2e8cf;
+$darkbeige: #eadec1;
+$black: #323031;
+$red: #bc4749;
+$green: #6a994e;
+$lightgreen: #6a994e; */
+
+@import "./assets/css/button.css";
+@import "./assets/css/modal.css";
+@import "./assets/css/navbar.css";
+
+:root {
+  --beige: #f2e8cf;
+  --black: #323031;
+  --blacklowopacity: #323031c6;
+  --green: #6a994e;
+  --red: #bc4749;
+  --focus: #0081a7;
+  --blue: #0081a7;
+  --white: #fffdf5;
+}
+body {
+  background-color: var(--white);
+}
+#App {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500 !important;
+  font-family: "Dosis", sans-serif !important;
+  color: var(--black);
+  z-index: 100 !important;
+}
+.content {
+  width: 100%;
+  max-width: 2600px;
+}
+.padding {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+.max-width {
+  max-width: 2000px;
+}
+.margin {
+  margin-left: 2vw !important;
+  margin-right: 2vw !important;
+}
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+h5 {
+  font-weight: 800;
+}
+h4 {
+  font-weight: 800;
+}
+h3 {
+  font-weight: 800;
+}
+h2 {
+  font-weight: 800;
+}
+h1 {
+  font-weight: 800;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0 !important;
+}
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(90%) !important;
+}
+.header-container {
+  background-color: var(--green);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  position: relative;
+}
+.text-cener {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.token-card {
+  background-color: var(--beige);
+  padding: 0.8rem 1.5rem;
+  margin: 1rem;
+  color: var(--black);
+}
+.my-token-card {
+  border-color: var(--beige);
+  background-color: var(--beige);
+  padding: 0.8rem 1.5rem;
+  margin: 1rem;
+  color: var(--black);
+}
+.my-token-card:hover {
+  outline-style: solid;
+  outline-color: var(--focus);
+  outline-width: 4px;
+  outline-width: medium;
+}
+.token-card-button {
+  width: 100% !important;
+}
+.active-token {
+  outline-style: solid !important;
+  outline-color: var(--focus) !important;
+  outline-width: 4px !important;
+  outline-width: medium !important;
+}
+.bold {
+  font-weight: bold;
+}
+.margin-top-sm {
+  margin-top: 1rem;
+}
+.margin-top-md {
+  margin-top: 1.5rem;
+}

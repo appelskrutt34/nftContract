@@ -1,0 +1,34 @@
+.navbar {
+  padding-top: 1rem;
+  background-color: var(--green);
+}
+.navbar-text {
+  color: var(--black);
+  font-weight: bold;
+}
+.nav-link:focus {
+  outline: 0;
+  text-decoration: underline;
+}
+.active-custom {
+  color: var(--black);
+  outline: 0;
+  text-decoration: underline;
+}
+nav .collapse {
+  justify-content: space-between;
+}
+.navbar-nav {
+  font-weight: bold;
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--black);
+  --bs-nav-link-hover-color: var(--black);
+  --bs-nav-link-disabled-color: var(--blacklowopacity);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
